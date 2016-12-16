@@ -7,4 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Rum.delete_all
 
-Rum.create({name: "Captain Morgan", country: "USA", price: 12}, {name: "Bacardi", country: "Cuba", price: 10}, {name: "Rummy Rum", country: "Swaziland", price: 22})
+Rum.create([{name: "Captain Morgan", country: "USA", price: 12}, {name: "Bacardi", country: "Cuba", price: 10}, {name: "Rummy Rum", country: "Swaziland", price: 22}])
